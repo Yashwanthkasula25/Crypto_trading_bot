@@ -50,3 +50,11 @@ After the order is placed, it prints the details on screen and writes them to th
 - This project is only for learning and demonstration.
 - It does not perform any real trading.
 - No API keys are required.
+
+Binance Futures Testnet (https://testnet.binancefuture.com) does not load in India
+without VPN. Due to this network restriction, I implemented a Mock Binance
+client to simulate order placement. The logic, structure, inputs, outputs, logging,
+and order processing flow are fully implemented as per the assignment. 
+If Binance Testnet is accessible in your environment, the same logic can be
+connected to the real testnet client with minimal changes.
+
